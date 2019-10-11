@@ -16,35 +16,29 @@ Utilizando HTML+JS resuelva los siguientes problemas.
 4. Si así lo prefiere, puede resolver todos los ejercicios en un mismo documento HTML y JS siempre y cuando quede claro en donde termina un ejercicio y en donde inicia el siguiente.
 5. Todos los mensajes de salida deberán ser lo suficientemente claros. Por ejemplo:
 
-### (4 Puntos) Problema 1 Tipo de cambio
+### (4 Puntos) Problema 1 Acceso a sistema
 
-Programe una página web que mediante un formulario permita al usuario ingresar un número. El formulario tendrá un botón y cuando el usuario presione el botón evaluará el número que ingresó el usuario y si el número ingresado es par entonces convertirá esa cantidad (número) a dólares, pero si la cantidad es impar la convertirá a euros. La página deberá mostrar el resultado e indicar a que moneda corresponde.
+Programe una página web que mediante un formulario permita al usuario ingresar su correo electrónico y clave. El formulario tendrá un botón y cuando el usuario presione el botón se evaluará si el usuario tiene acceso al sistema. Si el corre ingresado es admin@ucol.mx y la clave es 12345 entonces mostrará un mensaje de bienvenida, de lo contrario se mostrará un mensaje indicando que los datos introducidos son incorrectos
 
-### (4 Puntos) Problema 2 Sueldo
+### (4 Puntos) Problema 2 Hoy no circula
 
-Escribir una página que permita calcular el sueldo de los empleados de una empresa. La página contará con un formulario que permita capturar el nombre de usuario, la clave de acceso y el número de horas trabajadas.
+Escribir una página que permita determinar si un carro puede circular o no dependiendo del día de la semana y la terminación de su placa
+La página contará con un formulario que permita capturar el día de la semana y el número de terminación de la placa. Los autos que tienen terminación 0 solamente pueden circular los lunes, los autos que tienen terminación 1 solamente pueden circular los martes, los autos que tienen terminación 2 solamente pueden circular los miércoles. Todos los demás autos pueden circular cualquier día de la semana.
 
-- El nombre de usuario para el personal de servicios es **user**, la clave acceso es **12A34** y su sueldo por hora es de **\$75.00 pesos**
+### (2 Puntos) Problema 3 Boletos de cine
 
-- El nombre de usuario para el personal administrativo es **admin**, la clave es **76Z54** y su sueldo por hora es de **\$125.00** pesos
+Escriba una página que permita realizar venta de boletos para una sala de cine. La página incluirá un formulario en el cual se capturará:
 
-El sueldo se mostrará solamente si las credenciales del trabajador (usuario y clave) son correctos, de lo contrario mostrará un mensaje indicando que los datos son incorrectos o que no se cuenta con autorización
-
-### (2 Puntos) Problema 3 Venta de boletos
-
-Escriba una página que permita realizar venta de boletos para un evento. La página incluirá un formulario en el cual se capturará:
-
-1. El número de boletos que se quiere comprar
-2. La sección del recinto en la que se quiere comprar (general, plata, oro ó vip)
-3. El género de la persona que realiza la compra (másculino ó femenino)
+1. El número de asiento que se quiere comprar
+2. El día de la semana
 
 El costo de los boletos es el siguiente:
 
-- Zona General: \$ 500.00
-- Zona Plata: \$750.00
-- Zona Oro: \$1,000.00
-- Zona VIP: \$1,500.00
+- Asientos del 1 al 10 tienen un costo de: \$ 50.00
+- Asientos del 11 al 20 tienen un costo de: \$60.00
+- Asientos del 21 al 30 tienen un costo de: \$70.00
+- Todos los demás asientos tienen un costo de: \$80.00
 
-Para las damas se aplica un descuento del 15% en la compra de 5 o más boletos y para los caballeros del 10% en la compra de 3 o más boletos.
+Los días lunes y miércoles se aplica un descuento del 10%
 
 El programa deberá mostrar el total a pagar por la solicitud de compra.
